@@ -1,5 +1,5 @@
 {
-	"games": ["holdem"],
+	"games": [],
 	"botheads": false,
 	"timeout": 30,
 	"ws": {
