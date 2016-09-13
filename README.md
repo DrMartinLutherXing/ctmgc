@@ -35,7 +35,7 @@ syms = {
 ## core.config.ctmgc
 ### Import line: 'CT.require("core.config");'
 {
-	"games": ["holdem"],
+	"games": [],
 	"botheads": false,
 	"timeout": 30,
 	"ws": {

@@ -20,7 +20,7 @@ core.data = [
     {
         "children": [
             {
-                "content": "## core.config.ctmgc\n### Import line: 'CT.require(\"core.config\");'\n{\n\t\"games\": [\"holdem\"],\n\t\"botheads\": false,\n\t\"timeout\": 30,\n\t\"ws\": {\n\t\t\"host\": \"localhost\",\n\t\t\"port\": 8888,\n\t\t\"reconnect\": false\n\t}\n}", 
+                "content": "## core.config.ctmgc\n### Import line: 'CT.require(\"core.config\");'\n{\n\t\"games\": [],\n\t\"botheads\": false,\n\t\"timeout\": 30,\n\t\"ws\": {\n\t\t\"host\": \"localhost\",\n\t\t\"port\": 8888,\n\t\t\"reconnect\": false\n\t}\n}", 
                 "name": "config.js"
             }
         ], 
