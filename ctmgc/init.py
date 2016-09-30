@@ -4,8 +4,9 @@ copies = {
 	"html": ["index.html"]
 }
 syms = {
-	".": ["bots"],
+	"bots": ["lobby.py"],
 	"css": ["mgc.css"],
 	"img": ["mgc"],
 	"js": ["mgc"]
 }
+requires = ["ctai"]
