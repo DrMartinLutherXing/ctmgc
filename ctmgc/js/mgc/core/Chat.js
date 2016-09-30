@@ -74,6 +74,8 @@ mgc.core.Chat = CT.Class({
 			data = "<i>summary: <b>" + JSON.stringify(data) + "</b></i>";
 		else if (d.message.action == "stage")
 			data = "<i>stage: <b>" + data.game_stage + "</b></i>";
+		else if (d.message.action == "say")
+			data = "<i>say: <b>" + data.message + "</b></i>";
 		this._write("<b>" + d.user + "</b>: " + data);
 	}
 }, mgc.core.Base);
