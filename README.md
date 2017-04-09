@@ -18,30 +18,30 @@ MGC can be used to turn potentially any standard game into a group console exper
 
 # Back (Init Config)
 
-import os
-dirs = [os.path.join("js", "games")]
-copies = {
-	"html": ["index.html"]
-}
-syms = {
-	"bots": ["lobby.py"],
-	"css": ["mgc.css"],
-	"img": ["mgc"],
-	"js": ["mgc"]
-}
-requires = ["ctai"]
+    import os
+    dirs = [os.path.join("js", "games")]
+    copies = {
+    	"html": ["index.html"]
+    }
+    syms = {
+    	"bots": ["lobby.py"],
+    	"css": ["mgc.css"],
+    	"img": ["mgc"],
+    	"js": ["mgc"]
+    }
+    requires = ["ctai"]
 
 # Front (JS Config)
 
 ## core.config.ctmgc
 ### Import line: 'CT.require("core.config");'
-{
-	"games": [],
-	"botheads": false,
-	"timeout": 30,
-	"ws": {
-		"host": "localhost",
-		"port": 8888,
-		"reconnect": false
-	}
-}
+    {
+    	"games": [],
+    	"botheads": false,
+    	"timeout": 30,
+    	"ws": {
+    		"host": "localhost",
+    		"port": 8888,
+    		"reconnect": false
+    	}
+    }
